@@ -16,7 +16,7 @@ y = iva.fit_transform(X)
 Raw data.
 ![avatar](pics/Raw.png)
 Independent Vector.
-![avatar](pics/Independent Vector.png)
+![avatar](pics/IndependentVector.png)
 Computing every autocorrection of Independent Vector, if the autocorrection is below 0.9, set it zero. After that,
 reconstruct data.
 ![avatar](pics/Reconstruct.png)

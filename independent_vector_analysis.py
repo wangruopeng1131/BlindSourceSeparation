@@ -322,7 +322,7 @@ if __name__ == "__main__":
     iva = IndependentVectorAnalysis(21)
     # iva.fit(X)
     y = iva.fit_transform(X)
-    # plot_imf(y, name="Independent Vector.png", save=True)
+    # plot_imf(y, name="IndependentVector.png", save=True)
     ac = np.array([acf(yy)[1] for yy in y])
     where = np.where(ac < 0.9)
     y[where] = 0
